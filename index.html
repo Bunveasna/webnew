@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="txt0">
+                <div class="txt1">
+                    <input type="text" name="txt1">
+                </div>
+            </div>
+            <div class="btna">
+                <div class="btn1"><input type="button" id="btnDelete" value="DE" onclick="txt1.value = txt1.value.toString().slice(0,-1)"></div>
+                <div class="btn3"><input type="button" id="btnC" value="AC" onclick="txt1.value = '' "></div>
+                <div class="btn3"></div>
+                <div class="btn1"><input type="button" id="btnDivide" value="/" onclick="txt1.value += '/'"></div>
+                <div class="btn1"><input type="button" id="btn17" value="7" onclick="txt1.value += '7'"></div>
+                <div class="btn1"><input type="button" id="btn18" value="8" onclick="txt1.value += '8'"></div>
+                <div class="btn1"><input type="button" id="btn19" value="9" onclick="txt1.value += '9'"></div>
+                <div class="btn1"><input type="button" id="btnSubtract" value="-" onclick="txt1.value += '-'"></div>
+                <div class="btn1"><input type="button" id="btn14" value="4" onclick="txt1.value += '4'"></div>
+                <div class="btn1"><input type="button" id="btn15" value="5" onclick="txt1.value += '5'"></div>
+                <div class="btn1"><input type="button" id="btn16" value="6" onclick="txt1.value += '6'"></div>
+                <div class="btn1"><input type="button" id="btnMultiply" value="*" onclick="txt1.value += '*'"></div>
+                <div class="btn1"><input type="button" id="btn11" value="1" onclick="txt1.value += '1'"></div>
+                <div class="btn1"><input type="button" id="btn12" value="2" onclick="txt1.value += '2'"></div>
+                <div class="btn1"><input type="button" id="btn13" value="3" onclick="txt1.value += '3'"></div>
+                <div class="btn1"><input type="button" id="btnPlus" value="+" onclick="txt1.value += '+'"></div>
+                <div class="btn3"><input type="button" id="btn0" value="." onclick="txt1.value += '.'"></div>
+                <div class="btn1"><input type="button" id="btn00" value="0" onclick="txt1.value += '0'"></div>
+                <div class="btn2"><input type="button" id="btnEqual" value="=" onclick="txt1.value = eval(txt1.value)"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
