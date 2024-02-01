@@ -217,7 +217,7 @@ form .txt1 input{
     background-color:white;
 
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     .container{
         
         width: 100%;
