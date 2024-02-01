@@ -220,8 +220,8 @@ form .txt1 input{
 @media screen and (max-width: 720px) {
     .container{
         
-        width: 70%;
-        height: 600px;
+        width: 80%;
+        height: 580px;
     }
     
 }
